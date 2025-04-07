@@ -1,1 +1,19 @@
-@import 'style.css'
+@import 'reset.css';
+
+section {
+  width: 100%;
+  height: 100vh;
+  border: 4px solid black;
+  background-color: lightcyan;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+section article {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border: 3px solid blue;
+}
